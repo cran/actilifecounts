@@ -2,9 +2,14 @@
 # actilifecounts
 
 <!-- badges: start -->
-![GitHub Actions R-CMD-check](https://github.com/wadpac/GGIR/workflows/R-CMD-check-full/badge.svg)
-[![codecov](https://codecov.io/gh/wadpac/GGIR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/wadpac/GGIR)
+[![R-CMD-check](https://github.com/jhmigueles/actilifecounts/workflows/R-CMD-check/badge.svg)](https://github.com/jhmigueles/actilifecounts/actions)
+[![Codecov test coverage](https://codecov.io/gh/jhmigueles/actilifecounts/branch/master/graph/badge.svg)](https://app.codecov.io/gh/jhmigueles/actilifecounts?branch=master)
+[![CRAN status](https://www.r-pkg.org/badges/version/actilifecounts)](https://CRAN.R-project.org/package=actilifecounts)
+[![](https://cranlogs.r-pkg.org/badges/last-month/actilifecounts)](https://cran.r-project.org/package=actilifecounts)
+[![DOI](https://zenodo.org/badge/488131424.svg)](https://zenodo.org/badge/latestdoi/488131424)
 <!-- badges: end -->
+
+-----
 
 The goal of actilifecounts is to generate [ActiGraph](https://actigraphcorp.com/)
 activity counts as described by [Ali Neishabouri et al.](https://www.researchsquare.com/article/rs-1370418/v1)

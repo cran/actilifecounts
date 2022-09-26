@@ -7,7 +7,7 @@
 get_counts(raw, sf, epoch, lfe_select = FALSE, verbose = FALSE)
 }
 \arguments{
-\item{raw}{Matrix containing raw data}
+\item{raw}{Matrix containing raw data (3 columns, no timestamp should be included)}
 
 \item{sf}{Sample frequency of raw data (Hz)}
 
@@ -18,7 +18,7 @@ get_counts(raw, sf, epoch, lfe_select = FALSE, verbose = FALSE)
 \item{verbose}{Print diagnostic messages}
 }
 \value{
-Matrix containing the count values per epoch
+Matrix containing the count values per epoch in each axis and vector magnitude
 }
 \description{
 get_counts
